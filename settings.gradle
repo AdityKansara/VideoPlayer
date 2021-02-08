@@ -1,0 +1,3 @@
+include ':videogallery'
+include ':app',':nativetemplates', ':xvideoplayer', ':circular-checkbox', ':floating-menu', ':gallery-viewer', ':sliding-drawer-layout', ':slidingitemmenu-recyclerview', ':swipeback', ':texture-video-view'
+rootProject.name='Video Player'

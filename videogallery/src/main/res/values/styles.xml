@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="GalleryAppTheme" parent="AppTheme.Base"/>
+
+    <style name="FullScreenTheme.Base" parent="GalleryAppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="FullScreenTheme.Base"/>
+</resources>

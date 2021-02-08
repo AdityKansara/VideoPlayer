@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_launcher_name">Galería</string>
+    <string name="edit">Editar</string>
+    <string name="brightness">Brilléu</string>
+    <string name="videos">Vídeos</string>
+    <string name="width">Anchor</string>
+    <string name="rotate_left">Voltiar a esquierda</string>
+    <string name="simple_wallpaper">Galería</string>
+    <string name="home_screen">Pantalla d\'aniciu</string>
+    <string name="lock_screen">Pantalla de bloquéu</string>
+    <string name="by_folder">Carpeta</string>
+    <string name="pesdk_transform_button_resetCrop">Reafitar</string>
+    <string name="pesdk_adjustments_button_brightnessTool">Brilléu</string>
+    <string name="pesdk_adjustments_button_contrastTool">Contraste</string>
+    <string name="pesdk_adjustments_button_saturationTool">Saturación</string>
+    <string name="pesdk_adjustments_button_reset">Reafitar</string>
+    <string name="pesdk_text_title_name">Testu</string>
+    <string name="pesdk_text_button_add">Amestar</string>
+    <string name="pesdk_text_button_edit">Editar</string>
+    <string name="pesdk_text_button_delete">Desaniciar</string>
+    <string name="pesdk_brush_button_delete">Desaniciar</string>
+    <string name="pesdk_editor_button_closeEditorAlertConfirmation">Sí</string>
+    <string name="pesdk_editor_button_closeEditorAlertCancelation">Non</string>
+    <string name="pesdk_editor_cancel">Encaboxar</string>
+    <string name="pesdk_editor_save">Guardar</string>
+    <string name="pesdk_common_title_grayColor">Buxu</string>
+    <string name="pesdk_common_title_blackColor">Prietu</string>
+    <string name="pesdk_common_title_blueColor">Azul</string>
+    <string name="pesdk_common_title_redColor">Bermeyu</string>
+    <string name="pesdk_common_title_greenColor">Verde</string>
+</resources>

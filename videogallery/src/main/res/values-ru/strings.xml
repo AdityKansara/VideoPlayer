@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Простая галерея</string>
+    <string name="app_launcher_name">Галерея</string>
+    <string name="edit">Редактировать</string>
+    <string name="open_camera">Открыть камеру</string>
+    <string name="hidden">(скрыто)</string>
+    <string name="excluded">(исключено)</string>
+    <string name="pin_folder">Закрепить папку</string>
+    <string name="unpin_folder">Открепить папку</string>
+    <string name="pin_to_the_top">Закрепить сверху</string>
+    <string name="show_all">Отобразить все медиафайлы</string>
+    <string name="all_folders">Все медиафайлы</string>
+    <string name="folder_view">Переключиться вид на папки</string>
+    <string name="other_folder">Другая папка</string>
+    <string name="show_on_map">Показать место съёмки</string>
+    <string name="unknown_location">Место съёмки не указано</string>
+    <string name="volume">Громкость</string>
+    <string name="brightness">Яркость</string>
+    <string name="lock_orientation">Заблокировать ориентацию</string>
+    <string name="unlock_orientation">Разблокировать ориентацию</string>
+    <string name="change_orientation">Изменение ориентации</string>
+    <string name="force_portrait">Всегда портретная</string>
+    <string name="force_landscape">Всегда альбомная</string>
+    <string name="use_default_orientation">Не менять ориентацию</string>
+    <string name="fix_date_taken">Исправить дату снимку</string>
+    <string name="fixing">Исправление…</string>
+    <string name="dates_fixed_successfully">Даты исправлены</string>
+    <string name="no_date_takens_found">Значения забытых дат не найдены</string>
+    <string name="share_resized">Поделиться измененной версией</string>
+    <string name="upgraded_from_free">Похоже,\n\nвы обновили старую бесплатную версию приложения. Теперь вы можете удалить старую версию, нажав на кнопку «Обновить до Pro» в верхней части настроек приложения.\n\nУ вас будут удалены только элементы корзины, избранные элементы не отмечены, и вам также придется сбросить настройки приложения.\n\nСпасибо!</string>
+    <string name="switch_to_file_search">Переключиться на поиск файлов по всем видимым папкам</string>
+    <string name="filter_media">Фильтр медиа</string>
+    <string name="images">Изображения</string>
+    <string name="videos">Видео</string>
+    <string name="gifs">GIF-файлы</string>
+    <string name="raw_images">Изображения RAW</string>
+    <string name="svgs">SVG-файлы</string>
+    <string name="portraits">Портреты</string>
+    <string name="no_media_with_filters">При заданных фильтрах медиафайлы не найдены</string>
+    <string name="change_filters_underlined"><u>Изменить фильтры</u></string>
+    <string name="hide_folder_description">Эта функция скрывает папку, добавляя в неё файл \".nomedia\"; будут скрыты все подпапки. Можно показать их, переключая \"Показывать скрытые папки\" в настройках. Продолжить?</string>
+    <string name="exclude">Исключить</string>
+    <string name="excluded_folders">Исключённые папки</string>
+    <string name="manage_excluded_folders">Управление исключёнными папками</string>
+    <string name="exclude_folder_description">Эта функция исключит выбранные папки вместе с подпапками только из приложения простой галереи. Можно управлять исключёнными папками из настроек.</string>
+    <string name="exclude_folder_parent">Исключить только родительский каталог?</string>
+    <string name="excluded_activity_placeholder">Исключая папки, вы сделаете их скрытыми вместе с подпапками в приложении \"Простая галерея\", но они будут видны в других приложениях. Если вы хотите скрыть их и в других приложениях, используйте функцию \"Скрыть\".</string>
+    <string name="remove_all">Удалить всё</string>
+    <string name="remove_all_description">Очистить список исключённых папок? Сами папки не будут удалены.</string>
+    <string name="hidden_folders">Скрытые папки</string>
+    <string name="manage_hidden_folders">Управление скрытыми папками</string>
+    <string name="hidden_folders_placeholder">Похоже, у вас нет папок, скрытых файлом \".nomedia\".</string>
+    <string name="include_folders">Включённые папки</string>
+    <string name="manage_included_folders">Управление включёнными папками</string>
+    <string name="add_folder">Добавить папку</string>
+    <string name="included_activity_placeholder">Если у вас есть папки, содержащие медиафайлы, но не распознанные приложением, вы можете добавить их вручную.\n\nДобавление папки не приводит к исключению каких-либо других.</string>
+    <string name="no_media_add_included">Медиафайлы не найдены. Вы можете решить эту проблему, добавив папки с медиафайлами вручную.</string>
+    <string name="resize">Изменить размер</string>
+    <string name="resize_and_save">Изменить выбранное и сохранить</string>
+    <string name="width">Ширина</string>
+    <string name="height">Высота</string>
+    <string name="keep_aspect_ratio">Сохранять соотношение сторон</string>
+    <string name="invalid_values">Указано недопустимое разрешение</string>
+    <string name="editor">Редактор</string>
+    <string name="rotate">Поворот</string>
+    <string name="invalid_image_path">Недопустимый путь изображения</string>
+    <string name="image_editing_failed">Редактирование изображения не удалось</string>
+    <string name="image_editing_cancelled">Редактирование изображения отменено</string>
+    <string name="file_edited_successfully">Файл успешно отредактирован</string>
+    <string name="edit_image_with">Редактирование изображений в:</string>
+    <string name="no_editor_found">Ни одного редактора изображений не найдено</string>
+    <string name="unknown_file_location">Неизвестное местоположение файла</string>
+    <string name="error_saving_file">Не удалось перезаписать исходный файл</string>
+    <string name="rotate_left">Повернуть влево</string>
+    <string name="rotate_right">Повернуть вправо</string>
+    <string name="rotate_one_eighty">Перевернуть на 180°</string>
+    <string name="flip">Отразить</string>
+    <string name="flip_horizontally">По горизонтали</string>
+    <string name="flip_vertically">По вертикали</string>
+    <string name="free_aspect_ratio">Вручную</string>
+    <string name="other_aspect_ratio">Другое</string>
+    <string name="simple_wallpaper">Галерея</string>
+    <string name="set_as_wallpaper">Установить в качестве обоев</string>
+    <string name="set_as_wallpaper_failed">Не удалось установить</string>
+    <string name="set_as_wallpaper_with">Установить в качестве обоев в:</string>
+    <string name="setting_wallpaper">Установка обоев…</string>
+    <string name="wallpaper_set_successfully">Обои успешно установлены</string>
+    <string name="portrait_aspect_ratio">Портретная ориентация</string>
+    <string name="landscape_aspect_ratio">Альбомная ориентация</string>
+    <string name="home_screen">Домашний экран</string>
+    <string name="lock_screen">Экран блокировки</string>
+    <string name="home_and_lock_screen">Домашний экран и экран блокировки</string>
+    <string name="slideshow">Слайд-шоу</string>
+    <string name="interval">Интервал (в секундах):</string>
+    <string name="include_photos">Использовать изображения</string>
+    <string name="include_videos">Использовать видео</string>
+    <string name="include_gifs">Использовать GIF</string>
+    <string name="random_order">Случайный порядок</string>
+    <string name="move_backwards">В обратном порядке</string>
+    <string name="loop_slideshow">Зациклить</string>
+    <string name="animation">Анимация</string>
+    <string name="no_animation">Без эффекта</string>
+    <string name="fade">Затухание</string>
+    <string name="slide">Скольжение</string>
+    <string name="slideshow_ended">Слайд-шоу закончилось</string>
+    <string name="no_media_for_slideshow">Никаких медиафайлов для слайд-шоу не было найдено</string>
+    <string name="group_direct_subfolders">Группировать вложенные папки</string>
+    <string name="group_by">Группировать по…</string>
+    <string name="do_not_group_files">Не группировать файлы</string>
+    <string name="by_folder">Папка</string>
+    <string name="by_last_modified">Последнее изменение</string>
+    <string name="by_last_modified_daily">Дата редактирования (по дням)</string>
+    <string name="by_last_modified_monthly">Дата редактирования (по месяцам)</string>
+    <string name="by_date_taken">Дата съёмки</string>
+    <string name="by_date_taken_daily">Дата снимка (по дням)</string>
+    <string name="by_date_taken_monthly">Дата снимка (по месяцам)</string>
+    <string name="by_file_type">Тип файла</string>
+    <string name="by_extension">Расширение</string>
+    <string name="grouping_and_sorting">Обратите внимание, что группировка и сортировка - это 2 независимых поля</string>
+    <string name="folder_on_widget">Папка отображается на виджете:</string>
+    <string name="show_folder_name">Показать имя папки</string>
+    <string name="autoplay_videos">Воспроизводить видео автоматически</string>
+    <string name="remember_last_video_position">Запомнить последнюю позицию воспроизведения видео</string>
+    <string name="toggle_filename">Переключить отображение имени файла</string>
+    <string name="loop_videos">Повторять видео</string>
+    <string name="animate_gifs">Анимировать эскизы GIF</string>
+    <string name="max_brightness">Максимальная яркость при просмотре файлов</string>
+    <string name="crop_thumbnails">Нарезать миниатюры в квадраты</string>
+    <string name="show_thumbnail_video_duration">Показывать длительность видео</string>
+    <string name="screen_rotation_by">Поворот экрана при просмотре изображения</string>
+    <string name="screen_rotation_system_setting">Использовать системные настройки</string>
+    <string name="screen_rotation_device_rotation">При повороте устройства</string>
+    <string name="screen_rotation_aspect_ratio">По размеру изображения</string>
+    <string name="black_background_at_fullscreen">Чёрный фон в полноэкранном режиме</string>
+    <string name="scroll_thumbnails_horizontally">Прокрутка эскизов по горизонтали</string>
+    <string name="hide_system_ui_at_fullscreen">Автоматически скрывать системный интерфейс при просмотре изображения</string>
+    <string name="delete_empty_folders">Удалять пустые папки после удаления их содержимого</string>
+    <string name="allow_photo_gestures">Управлять яркостью при просмотре изображения с помощью вертикальных жестов</string>
+    <string name="allow_video_gestures">Управлять громкостью и яркостью при просмотре видео с помощью вертикальных жестов</string>
+    <string name="show_media_count">Показывать количество файлов в папках</string>
+    <string name="show_extended_details">Показывать подробности о файле</string>
+    <string name="manage_extended_details">Выбрать подробности файла</string>
+    <string name="one_finger_zoom">Масштабирование одним пальцем при просмотре изображения</string>
+    <string name="allow_instant_change">Мгновенное переключение медиафайлов нажатием по краю экрана</string>
+    <string name="allow_deep_zooming_images">Включить глубокое масштабирование изображений</string>
+    <string name="hide_extended_details">Не показывать подробности при скрытой строке состояния</string>
+    <string name="show_at_bottom">Показывать кнопки действий в нижней части экрана</string>
+    <string name="show_recycle_bin">Отображать корзину на экране папок</string>
+    <string name="deep_zoomable_images">Масштабируемые изображения</string>
+    <string name="show_highest_quality">Показывать изображения с максимально высоким качеством</string>
+    <string name="show_recycle_bin_last">Отображать корзину как последний объект на главном экране</string>
+    <string name="allow_down_gesture">Разрешить закрытие полноэкранного просмотра жестом вниз</string>
+    <string name="allow_one_to_one_zoom">Разрешить масштабирование 1:1 с помощью двух двойных нажатий</string>
+    <string name="open_videos_on_separate_screen">Всегда открывать видео на отдельном экране с новыми горизонтальными жестами</string>
+    <string name="show_notch">Показывать вырез, если доступно</string>
+    <string name="allow_rotating_gestures">Разрешить вращение изображений с помощью жестов</string>
+    <string name="file_loading_priority">Приоритет загрузки файла</string>
+    <string name="speed">Скорость</string>
+    <string name="compromise">Компромисс</string>
+    <string name="avoid_showing_invalid_files">Не отображать недопустимые файлы</string>
+    <string name="show_image_file_types">Показать типы файлов изображений</string>
+    <string name="allow_zooming_videos">Увеличение видео с помощью двойного нажатия</string>
+    <string name="square">Квадрат</string>
+    <string name="thumbnails">Миниатюры</string>
+    <string name="fullscreen_media">Полноэкранный режим</string>
+    <string name="extended_details">Подробности</string>
+    <string name="bottom_actions">Нижние кнопки действий</string>
+    <string name="manage_bottom_actions">Настройка нижних кнопок действий</string>
+    <string name="toggle_favorite">Переключение избранного</string>
+    <string name="toggle_file_visibility">Переключение видимости файлов</string>
+    <string name="pesdk_transform_button_freeCrop">Пользовательские настр.</string>
+    <string name="pesdk_transform_button_resetCrop">Сбросить</string>
+    <string name="pesdk_transform_button_squareCrop">Квадрат</string>
+    <string name="pesdk_transform_title_name">Преобразовать</string>
+    <string name="pesdk_filter_title_name">Фильтрация</string>
+    <string name="pesdk_filter_asset_none">Без эффекта</string>
+    <string name="pesdk_adjustments_title_name">Исправить</string>
+    <string name="pesdk_adjustments_button_shadowTool">Тени</string>
+    <string name="pesdk_adjustments_button_exposureTool">Выдержка</string>
+    <string name="pesdk_adjustments_button_highlightTool">Яркие моменты</string>
+    <string name="pesdk_adjustments_button_brightnessTool">Яркость</string>
+    <string name="pesdk_adjustments_button_contrastTool">Контрастность</string>
+    <string name="pesdk_adjustments_button_saturationTool">Насыщенность</string>
+    <string name="pesdk_adjustments_button_clarityTool">Резкость</string>
+    <string name="pesdk_adjustments_button_gammaTool">Гамма</string>
+    <string name="pesdk_adjustments_button_blacksTool">Затемнить</string>
+    <string name="pesdk_adjustments_button_whitesTool">Осветлить</string>
+    <string name="pesdk_adjustments_button_temperatureTool">Температура</string>
+    <string name="pesdk_adjustments_button_sharpnessTool">Резкость</string>
+    <string name="pesdk_adjustments_button_reset">Сбросить</string>
+    <string name="pesdk_focus_title_name">Фокус</string>
+    <string name="pesdk_focus_title_disabled">Без эффекта</string>
+    <string name="pesdk_focus_button_radial">Круглая</string>
+    <string name="pesdk_focus_button_linear">Линейный</string>
+    <string name="pesdk_focus_button_mirrored">Симетричный</string>
+    <string name="pesdk_focus_button_gaussian">Гауссовый</string>
+    <string name="pesdk_text_title_name">Текст</string>
+    <string name="pesdk_text_title_options">Настройки текста</string>
+    <string name="pesdk_text_title_textColor">Цвет текста</string>
+    <string name="pesdk_text_title_font">Шрифт</string>
+    <string name="pesdk_text_button_add">Добавить</string>
+    <string name="pesdk_text_button_edit">Редактировать</string>
+    <string name="pesdk_text_button_straighten">Выровнять</string>
+    <string name="pesdk_text_button_font">Шрифт</string>
+    <string name="pesdk_text_button_color">Цвет</string>
+    <string name="pesdk_text_button_backgroundColor">Цвет фона</string>
+    <string name="pesdk_text_button_alignment">Выравнивание</string>
+    <string name="pesdk_text_button_bringToFront">На передний план</string>
+    <string name="pesdk_text_button_delete">Удалить</string>
+    <string name="pesdk_text_text_editTextPlaceholder">Ваш текст</string>
+    <string name="pesdk_brush_title_name">Кисть</string>
+    <string name="pesdk_brush_button_color">Цвет</string>
+    <string name="pesdk_brush_button_size">Размер</string>
+    <string name="pesdk_brush_button_hardness">Жесткость</string>
+    <string name="pesdk_brush_button_bringToFront">На передний план</string>
+    <string name="pesdk_brush_button_delete">Удалить</string>
+    <string name="pesdk_brush_title_brushColor">Цвет кисти</string>
+    <string name="pesdk_editor_title_name">Редактор</string>
+    <string name="pesdk_editor_title_closeEditorAlert">Закрыть редактор?</string>
+    <string name="pesdk_editor_text_closeEditorAlert">Вы уверенны что хотите удалить это изображение?</string>
+    <string name="pesdk_editor_button_closeEditorAlertConfirmation">Да</string>
+    <string name="pesdk_editor_button_closeEditorAlertCancelation">Нет</string>
+    <string name="pesdk_editor_cancel">Отмена</string>
+    <string name="pesdk_editor_accept">Принять</string>
+    <string name="pesdk_editor_save">Сохранить</string>
+    <string name="pesdk_editor_text_exportProgressUnknown">Экспорт изображения…</string>
+    <string name="pesdk_editor_text_exportProgress" formatted="false">Экспорт изображения %s.</string>
+    <string name="pesdk_common_button_flipH">Переверните H</string>
+    <string name="pesdk_common_button_flipV">Переверните V</string>
+    <string name="pesdk_common_button_undo">Отменить</string>
+    <string name="pesdk_common_button_redo">Повторить</string>
+    <string name="pesdk_common_title_colorPicker">Выбор цета</string>
+    <string name="pesdk_common_title_transparentColor">Прозрачный</string>
+    <string name="pesdk_common_title_whiteColor">Белый</string>
+    <string name="pesdk_common_title_grayColor">Серый</string>
+    <string name="pesdk_common_title_blackColor">Чёрный</string>
+    <string name="pesdk_common_title_lightBlueColor">Голубой</string>
+    <string name="pesdk_common_title_blueColor">Синий</string>
+    <string name="pesdk_common_title_purpleColor">Фиолетовый</string>
+    <string name="pesdk_common_title_orchidColor">Фиолетовый</string>
+    <string name="pesdk_common_title_pinkColor">Розовый</string>
+    <string name="pesdk_common_title_redColor">Красный</string>
+    <string name="pesdk_common_title_orangeColor">Оранжевый</string>
+    <string name="pesdk_common_title_goldColor">Золотой</string>
+    <string name="pesdk_common_title_yellowColor">Жёлтый</string>
+    <string name="pesdk_common_title_oliveColor">Оливковый</string>
+    <string name="pesdk_common_title_greenColor">Зелёный</string>
+    <string name="pesdk_common_title_aquamarinColor">Аквамарин</string>
+    <string name="pesdk_common_title_pipettableColor">Подобрать цвет</string>
+    <string name="faq_1_title">Как сделать приложение \"Простая галерея\" галереей по умолчанию?</string>
+    <string name="faq_1_text">Сначала вы должны найти галерею по умолчанию в разделе \"Приложения\" настроек вашего устройства; найдите кнопку, названную \"Открыть по умолчанию\", затем нажмите на неё и выберите \"Очистить значения по умолчанию\".
+        В следующий раз, когда попробуете открыть изображение или видео, вы увидите выбор приложений, где сможете выбрать приложение \"Простая галерея\" и сделать её приложением по умолчанию.</string>
+    <string name="faq_2_title">Я заблокировал приложение паролем, но забыл его. Что мне теперь делать?</string>
+    <string name="faq_2_text">Это можно решить двумя способами. Вы можете переустановить приложение или найти его в настройках вашего устройства и выбрать пункт \"Очистить данные\", что сбросит все настройки приложения, но не удалит медиафайлы.</string>
+    <string name="faq_3_title">Как я могу сделать альбом всегда отображающимся сверху?</string>
+    <string name="faq_3_text">Вы можете долго нажимать на нужный альбом и выбрать значок «Закрепить» в меню действий, который закрепит его наверху. Вы также можете закрепить несколько папок, закрепленные элементы будут отсортированы по умолчанию.</string>
+    <string name="faq_4_title">Как я могу ускорить перемотку видео?</string>
+    <string name="faq_4_text">Это можно сделать двойным касанием боковой части экрана или касанием текста текущей или максимальной продолжительности рядом с полосой поиска. Если в настройках приложения включить отображение видео на отдельном экране, можно использовать и горизонтальные жесты.</string>
+    <string name="faq_5_title">В чём разница между скрытием и исключением папки?</string>
+    <string name="faq_5_text">Исключает отображение папки только в Simple Gallery, в то время как скрытие работает системно и скрывает папку из других галерей. Он работает путем создания пустой \".nomedia\" файл в указанной папке, который затем можно удалить с помощью любого файлового менеджера. Заметьте, что некоторые устройства не позволяют скрывать такие папки, как камера, скриншоты и загрузки.</string>
+    <string name="faq_6_title">Почему отображаются папки с музыкальными обложками?</string>
+    <string name="faq_6_text">Может случиться так, что вы увидите необычные альбомы. Вы можете легко убрать их, долго нажав на них и выбрав пункт \"Исключить\". В следующем диалоговом окне вы сможете выбрать родительскую папку, что, скорее всего, также предотвратит появление других похожих альбомов.</string>
+    <string name="faq_7_title">Папка с изображениями не отображается, что можно сделать?</string>
+    <string name="faq_7_text">Это может происходить по нескольким причинам, но легко решаемо. Просто зайдите в \"Настройки\" -&gt; \"Управление включёнными папками\", нажмите \"плюс\" и перейдите в нужную папку.</string>
+    <string name="faq_8_title">Что делать, если я хочу видеть только несколько конкретных папок?</string>
+    <string name="faq_8_text">Добавление папки во включённые не исключает автоматически остальные. Что вы можете сделать это через \"Настройки\" -&gt; \"Управление исключёнными папками\". Исключите корневую папку \"/\", затем добавьте нужные папки в \"Настройки\" -&gt; \"Управление включёнными папками\".
+        Это сделает видимыми только выбранные папки, так как исключение и включение являются рекурсивными, и если папка исключена и включена, то она будет отображаться.</string>
+    <string name="faq_10_title">Можно ли обрезать изображения с помощью данного приложения?</string>
+    <string name="faq_10_text">Да, вы можете обрезать изображения в редакторе, перетаскивая за углы. К редактированию можно перейти, выбрав соответсвующий пункт в меню, открывающемуся длительным нажатием на миниатюру или изображение в полноэкранном режиме.</string>
+    <string name="faq_11_title">Могу ли я как-то сгруппировать миниатюры медиафайлов?</string>
+    <string name="faq_11_text">Конечно, просто используйте пункт меню \"Группировать по…\" во время просмотра миниатюр. Вы можете группировать файлы по нескольким критериям, включая дату съёмки. Если вы используете функцию \"Отобразить все медиафайлы\", то также можете группировать их по папкам.</string>
+    <string name="faq_12_title">Сортировка по дате снимка не работает должным образом, как исправить эту проблему?</string>
+    <string name="faq_12_text">Скорее всего, это происходит из-за копирования файлов. Вы можете исправить это, отметив миниатюры файлов и выбрав опцию \"Исправить дату снимка\".</string>
+    <string name="faq_13_title">Я вижу некоторые цветные полосы на изображениях. Как можно улучшить качество?</string>
+    <string name="faq_13_text">Нынешнее решение для отображения изображений прекрасно работает в подавляющем большинстве случаев, но если вы хотите получить ещё лучшее качество изображения, вы можете включить опцию «Показывать изображения с максимально высоким качеством» в настройках приложения, в разделе «Масштабируемые изображения».</string>
+    <string name="faq_14_title">Я скрыл(а) файл/папку. Как сделать файл или папку снова видимыми?</string>
+    <string name="faq_14_text">Вы можете либо нажать кнопку «Временно показывать скрытые файлы» на главном экране, либо переключить «Показывать скрытые файлы» в настройках приложения, чтобы увидеть скрытый элемент (файл или папка). Если вы хотите, чтобы элемент вновь стал видимым, выделите объект, и нажмите опцию «Показать». При скрытии папки, в неё добавляется скрытый файл с названием «.nomedia», вы можете удалить файл с помощью любого файлового менеджера.</string>
+    <string name="faq_15_title">Почему приложение занимает так много места?</string>
+    <string name="faq_15_text">Кэш приложения может занимать до 250 МБ, это обеспечивает более быструю загрузку изображения. Если приложение занимает еще больше места, оно, скорее всего, вызвано наличием элементов в корзине. Эти файлы считаются до размера приложения. Вы можете очистить корзину, открыв ее и удалив все файлы, или же удалить через настройки приложения. Каждый файл в корзине автоматически удаляется через 30 дней.</string>
+    <string name="app_title">Simple Gallery Pro: Фотоменеджер и редактор</string>
+    <string name="app_short_description">Премиум приложение для редактирования ваших фотографий, видео, GIF без рекламы</string>
+    <string name="app_long_description">        Simple Gallery Pro is a highly customizable offline gallery. Organize &amp; edit your photos, recover deleted files with the recycle bin, protect &amp; hide files and view a huge variety of different photo &amp; video formats including RAW, SVG and much more.
+
+        The app contains no ads and unnecessary permissions. As the app doesn’t require internet access either, your privacy is protected.
+
+        -------------------------------------------------
+        <b>SIMPLE GALLERY PRO – FEATURES</b>
+        -------------------------------------------------
+
+        • Offline gallery with no ads or popups
+        • Simple gallery photo editor – crop, rotate, resize, draw, filters &amp; more
+        • No internet access needed, giving you more privacy and security
+        • No unnecessary permissions required
+        • Quickly search images, videos &amp; files
+        • Open &amp; view many different photo and video types (RAW, SVG, panoramic etc)
+        • A variety of intuitive gestures to easily edit &amp; organize files
+        • Lots of ways to filter, group &amp; sort files
+        • Customize the appearance of Simple Gallery Pro
+        • Available in 32 languages
+        • Mark files as favorites for quick access
+        • Protect your photos &amp; videos with a pattern, pin or fingerprint
+        • Use pin, pattern &amp; fingerprint to protect the app launch or specific functions too
+        • Recover deleted photos &amp; videos from the recycle bin
+        • Toggle visibility of files to hide photos &amp; videos
+        • Create a customizable slideshow of your files
+        • View detailed information of your files (resolution, EXIF values etc)
+        • Simple Gallery Pro is open source
+        … and much much more!
+
+        <b>PHOTO GALLERY EDITOR</b>
+        Simple Gallery Pro makes it easy to edit your pictures on the fly. Crop, flip, rotate and resize your pictures. If you’re feeling a little more creative you can add filters and draw on your pictures!
+
+        <b>SUPPORT FOR MANY FILE TYPES</b>
+        Unlike some other gallery viewers &amp; photo organizers, Simple Gallery Pro supports a huge range of different file types including JPEG, PNG, MP4, MKV, RAW, SVG, Panoramic photos, Panoramic videos and many more.
+
+        <b>HIGHLY CUSTOMIZABLE GALLERY MANAGER</b>
+        From the UI to the function buttons on the bottom toolbar, Simple Gallery Pro is highly customizable and works the way you want it to. No other gallery manager has this kind of flexibility! Thanks to being open source, we’re also available in 32 languages!
+
+        <b>RECOVER DELETED PHOTOS &amp; VIDEOS</b>
+        Accidentally deleted a precious photo or video? Don’t worry! Simple Gallery Pro features a handy recycle bin where you can recover deleted photos &amp; videos easily.
+
+        <b>PROTECT &amp; HIDE PHOTOS, VIDEOS &amp; FILES</b>
+        Using pin, pattern or your device’s fingerprint scanner you can protect and hide photos, videos &amp; entire albums. You can protect the app itself or place locks on specific functions of the app. For example, you can’t delete a file without a fingerprint scan, helping to protect your files from accidental deletion.
+
+        <b>Check out the full suite of Simple Tools here:</b>
+        https://www.simplemobiletools.com
+
+        <b>Standalone website of Simple Gallery Pro:</b>
+        https://www.simplemobiletools.com/gallery
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+</resources>

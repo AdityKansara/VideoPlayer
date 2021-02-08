@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_290sdp"
+    android:layout_height="@dimen/_260sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/details_back"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/librefranklin_medium"
+        android:gravity="center"
+        android:text="Details"
+        android:textColor="@color/backgroundcolor"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/videoname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="@font/librefranklin_medium"
+            android:gravity="start"
+            android:text="Name:"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/videotime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/librefranklin_medium"
+            android:gravity="start"
+            android:text="Time:"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/videosize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/librefranklin_medium"
+            android:gravity="start"
+            android:text="Size:"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/videoresolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/librefranklin_medium"
+            android:gravity="start"
+            android:text="Resolution:"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/videodatemodified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/librefranklin_medium"
+            android:gravity="start"
+            android:text="Date Modified:"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/videopath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:fontFamily="@font/librefranklin_medium"
+            android:gravity="start"
+            android:text="Path:"
+            android:textColor="@color/backgroundcolor"
+            android:textSize="@dimen/_9sdp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_ok"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ok_btn" />
+
+</FrameLayout>

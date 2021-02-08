@@ -1,0 +1,63 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    ext.kotlin_version = '1.4.21'
+    ext.is_proprietary = gradle.startParameter.taskNames.any { task -> task.contains("Proprietary") }
+
+
+
+    repositories {
+        mavenCentral()
+        if (is_proprietary) {
+            maven { url 'https://artifactory.img.ly/artifactory/imgly' }
+        }
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            name 'Aliyun'
+        }
+        google()
+        jcenter(){
+            url "https://jcenter.bintray.com/"
+        }
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.3'
+        if (is_proprietary) {
+            classpath 'ly.img.android.pesdk:plugin:8.0.5'
+        }
+
+//        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+//        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
+//        classpath 'com.github.dcendents:android-maven-plugin:1.2'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/groups/public/'
+            name 'Aliyun'
+        }
+        mavenCentral()
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    buildToolsVersion = '28.0.3'
+    compileSdkVersion = 28
+    targetSdkVersion = 28
+}

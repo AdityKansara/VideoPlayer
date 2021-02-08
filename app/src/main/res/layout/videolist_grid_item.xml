@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_160sdp"
+        android:background="@color/cream_dark"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgpick"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintLeft_toLeftOf="@id/img_back"
+        app:layout_constraintRight_toRightOf="@id/img_back"
+        app:layout_constraintTop_toTopOf="@id/img_back" />
+
+    <TextView
+        android:id="@+id/txt_videoname"
+        android:layout_width="@dimen/_115sdp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/librefranklin_light"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Lagja gale se"
+        android:textColor="@color/brown_grey"
+        android:textSize="@dimen/_11sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/txt_videotime"
+        app:layout_constraintLeft_toLeftOf="@id/imgpick"
+        app:layout_constraintRight_toLeftOf="@id/img_more"
+        app:layout_constraintTop_toBottomOf="@id/imgpick" />
+
+    <TextView
+        android:id="@+id/txt_videotime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/librefranklin_medium"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="00:30"
+        android:textColor="@color/brown_grey"
+        android:textSize="@dimen/_9sdp"
+        app:layout_constraintBottom_toBottomOf="@id/img_back"
+        app:layout_constraintLeft_toLeftOf="@id/txt_videoname"
+        app:layout_constraintRight_toLeftOf="@id/txt_videosize"
+        app:layout_constraintTop_toBottomOf="@id/txt_videoname" />
+
+    <TextView
+        android:id="@+id/txt_videosize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/librefranklin_medium"
+        android:maxLines="1"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingEnd="@dimen/_2sdp"
+        android:singleLine="true"
+        android:text="3.55 MB"
+        android:textColor="@color/brown_grey"
+        android:textSize="@dimen/_9sdp"
+        app:layout_constraintBottom_toBottomOf="@id/txt_videotime"
+        app:layout_constraintLeft_toRightOf="@id/txt_videotime"
+        app:layout_constraintTop_toTopOf="@id/txt_videotime" />
+
+    <ImageView
+        android:id="@+id/img_more"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/more_ic"
+        app:layout_constraintBottom_toBottomOf="@id/txt_videotime"
+        app:layout_constraintRight_toRightOf="@id/img_back"
+        app:layout_constraintTop_toTopOf="@id/txt_videoname" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lihtne galerii</string>
+    <string name="app_launcher_name">Galerii</string>
+    <string name="edit">Muuda</string>
+    <string name="open_camera">Ava kaamera</string>
+    <string name="hidden">(peidetud)</string>
+    <string name="excluded">(välja arvatud)</string>
+    <string name="pin_folder">Pin kaust</string>
+    <string name="unpin_folder">Katkesta kaust</string>
+    <string name="pin_to_the_top">Pin algusesse</string>
+    <string name="show_all">Kuva kõik kaustade sisu</string>
+    <string name="all_folders">Kõik kaustad</string>
+    <string name="folder_view">Lülita kausta vaade</string>
+    <string name="other_folder">Muu kaust</string>
+    <string name="show_on_map">Näita kaardil</string>
+    <string name="unknown_location">Tundmatu asukoht</string>
+    <string name="volume">Helitugevus</string>
+    <string name="brightness">Heledus</string>
+    <string name="lock_orientation">Lukusta suund</string>
+    <string name="unlock_orientation">Avage orientatsioon</string>
+    <string name="change_orientation">Muutke orientatsiooni</string>
+    <string name="force_portrait">Force portree</string>
+    <string name="force_landscape">Sunniga horisontaalkuva</string>
+    <string name="use_default_orientation">Kasutage vaikesuunitlust</string>
+    <string name="fix_date_taken">Fikseeritud jäädvustus kuup. väärtus</string>
+    <string name="fixing">Kinnitamine…</string>
+    <string name="dates_fixed_successfully">Kuupäevad fikseeriti edukalt</string>
+    <string name="no_date_takens_found">Kuupäeva väärtusi ei leitud</string>
+    <string name="share_resized">Jagage muudetud suurusega versiooni</string>
+    <string name="upgraded_from_free">Hei,\n\ntundub, et te uuendasite vanast tasuta rakendusest. Nüüd saate eemaldada vana versiooni, millel on rakenduse seadete ülaosas nupp „Upgrade to Pro”.\n\nTeil on kustutatud ainult prügikasti üksused, lemmikobjektid on märgistamata ja teil tuleb ka oma rakenduse seaded lähtestada.\n\nTäname!</string>
+    <string name="switch_to_file_search">Lülitage kõik nähtavad kausta failid otsingusse</string>
+    <string name="set_as_default_folder">Määra vaikekaustaks </string>
+    <string name="unset_as_default_folder">Tühista vaikekaust</string>
+    <string name="filter_media">Meedia filter</string>
+    <string name="images">Pildid</string>
+    <string name="videos">Videod</string>
+    <string name="gifs">GIFid</string>
+    <string name="raw_images">RAW-pildid</string>
+    <string name="svgs">SVGd</string>
+    <string name="portraits">Portreed</string>
+    <string name="no_media_with_filters">Valitud filtritega ei leitud meediumifaile.</string>
+    <string name="change_filters_underlined"><u>Muuda filtreid</u></string>
+    <string name="hide_folder_description">See funktsioon peidab kausta, lisades sellele \".nomedia\" faili, see peidab ka kõik alamkaustad. Neid saate vaadata, lülitades käsku „Kuva peidetud objekte”. Jätka?</string>
+    <string name="exclude">Jäta välja</string>
+    <string name="excluded_folders">Välistatud kaustad</string>
+    <string name="manage_excluded_folders">Välistatud kaustade haldamine</string>
+    <string name="exclude_folder_description">See välistab valiku koos selle alamkaustadega ainult lihtsast galeriist. Välistatud kaustu saate hallata menüüs Seaded.</string>
+    <string name="exclude_folder_parent">Välista vanem välja?</string>
+    <string name="excluded_activity_placeholder">Kaustade väljaarvamine muudab need koos nende alamkaustadega, mis on peidetud lihtsalt galeriis, kuid need jäävad nähtavaks ka teistes rakendustes.\n\nKui soovite neid ka teistest rakendustest peita, kasutage Peida funktsioon.</string>
+    <string name="remove_all">Eemalda kõik</string>
+    <string name="remove_all_description">Eemaldage kõik kaustad väljajäetud loendist? See ei kustuta kaustu.</string>
+    <string name="hidden_folders">Peidetud kaustad</string>
+    <string name="manage_hidden_folders">Halda peidetud kaustu</string>
+    <string name="hidden_folders_placeholder">Tundub, et teil pole \".nomedia\" faililaiendigaga peidetud kaustu.</string>
+    <string name="include_folders">Kaasatud kaustad</string>
+    <string name="manage_included_folders">Halda lisatud kaustu</string>
+    <string name="add_folder">Lisa kaust</string>
+    <string name="included_activity_placeholder">Kui teil on mõningaid kaustu, mis sisaldavad meediat, kuid mida rakendus ei tunnista, saate need siia käsitsi lisada.\n\nMõnede üksuste lisamine siia ei eemalda ühtegi teist kausta.</string>
+    <string name="no_media_add_included">Meediumifaile ei leitud. Selle saate lahendada meediumifaile sisaldavate kaustade käsitsi lisamisega.</string>
+    <string name="resize">Muuda suurust</string>
+    <string name="resize_and_save">Suuruse muutmine ja salvestamine</string>
+    <string name="width">Laius</string>
+    <string name="height">Kõrgus</string>
+    <string name="keep_aspect_ratio">Hoidke kuvasuhet</string>
+    <string name="invalid_values">Sisesta korrektne resolutsioon</string>
+    <string name="editor">Toimetaja</string>
+    <string name="rotate">Pööra</string>
+    <string name="invalid_image_path">Kehtetu pildi tee</string>
+    <string name="image_editing_failed">Pildi redigeerimine ebaõnnestus</string>
+    <string name="image_editing_cancelled">Pildi redigeerimine peatatud</string>
+    <string name="file_edited_successfully">Faili redigeerimine õnnestus</string>
+    <string name="edit_image_with">Muuda pilti koos:</string>
+    <string name="no_editor_found">Pildi redaktorit ei leitud</string>
+    <string name="unknown_file_location">Tundmatu faili asukoht</string>
+    <string name="error_saving_file">Lähtefaili ei saanud üle kirjutada</string>
+    <string name="rotate_left">Pööra vasakule</string>
+    <string name="rotate_right">Pööra paremale</string>
+    <string name="rotate_one_eighty">Pööra 180º võrra</string>
+    <string name="flip">Pööra ümber</string>
+    <string name="flip_horizontally">Pööra horisontaalselt</string>
+    <string name="flip_vertically">Pööra vertikaalselt</string>
+    <string name="free_aspect_ratio">Mitte ühtegi</string>
+    <string name="other_aspect_ratio">Muud</string>
+    <string name="simple_wallpaper">Galerii</string>
+    <string name="set_as_wallpaper">Lisa taustapildiks</string>
+    <string name="set_as_wallpaper_failed">Taustapildi määramine ebaõnnestus</string>
+    <string name="set_as_wallpaper_with">Määra taustaks koos:</string>
+    <string name="setting_wallpaper">Taustapildi määramine…</string>
+    <string name="wallpaper_set_successfully">Taustapilt määratud</string>
+    <string name="portrait_aspect_ratio">Portree kuvasuhe</string>
+    <string name="landscape_aspect_ratio">Portree kuvasuhe</string>
+    <string name="home_screen">Avakuva</string>
+    <string name="lock_screen">Lukustusekraan</string>
+    <string name="home_and_lock_screen">Avaekraan ja lukustuskuva</string>
+    <string name="slideshow">Slaidiseanss</string>
+    <string name="interval">Intervall (sek.):</string>
+    <string name="include_photos">Lisage fotod</string>
+    <string name="include_videos">Lisage videod</string>
+    <string name="include_gifs">Lisage GIF-id</string>
+    <string name="random_order">Juhuslik järjekord</string>
+    <string name="move_backwards">Liigu tahapoole</string>
+    <string name="loop_slideshow">Tsükliline slaidiseanss</string>
+    <string name="animation">Animatsioon</string>
+    <string name="no_animation">Puudub</string>
+    <string name="fade">Hajuv</string>
+    <string name="slide">Libisema</string>
+    <string name="slideshow_ended">Slaidiseanss lõppes</string>
+    <string name="no_media_for_slideshow">Slaidiseansi meediat pole leitud</string>
+    <string name="group_direct_subfolders">Grupeerige otsesed alamkaustad</string>
+    <string name="group_by">Grupeerimisalus:</string>
+    <string name="do_not_group_files">Ärge grupeerige faile</string>
+    <string name="by_folder">Kaust</string>
+    <string name="by_last_modified">Viimati muudetud</string>
+    <string name="by_last_modified_daily">Viimati muudetud (päev)</string>
+    <string name="by_last_modified_monthly">Viimati muudetud (kuu)</string>
+    <string name="by_date_taken">Jäädvustamiskuupäev</string>
+    <string name="by_date_taken_daily">Kuupäev (iga päev)</string>
+    <string name="by_date_taken_monthly">Kuupäev (kuu)</string>
+    <string name="by_file_type">Faili tüüp</string>
+    <string name="by_extension">Laiendus</string>
+    <string name="grouping_and_sorting">Pange tähele, et rühmitamisel ja sortimisel on 2 sõltumatut välja</string>
+    <string name="folder_on_widget">Vidinal näidatud kaust:</string>
+    <string name="show_folder_name">Kuva kausta nimi</string>
+    <string name="autoplay_videos">Videote esitamine automaatselt</string>
+    <string name="remember_last_video_position">Pea meeles viimane video taasesitusasend</string>
+    <string name="toggle_filename">Lülitab sisse failinime nähtavuse</string>
+    <string name="loop_videos">Tsüklilised videod</string>
+    <string name="animate_gifs">GIF pisipiltide animeerimine</string>
+    <string name="max_brightness">Maksimaalne täisekraani heledus meediumi vaatamisel</string>
+    <string name="crop_thumbnails">Kärbi pisipildid ruutudeks</string>
+    <string name="show_thumbnail_video_duration">Näita videote kestusi</string>
+    <string name="screen_rotation_by">Pöörake meedia täisekraani</string>
+    <string name="screen_rotation_system_setting">Süsteemi seade</string>
+    <string name="screen_rotation_device_rotation">Seadme pööramine</string>
+    <string name="screen_rotation_aspect_ratio">Kuvasuhe</string>
+    <string name="black_background_at_fullscreen">Must taust täisekraanil</string>
+    <string name="scroll_thumbnails_horizontally">Kerige pisipilte horisontaalselt</string>
+    <string name="hide_system_ui_at_fullscreen">Peida süsteemi kasutajaliides automaatselt täisekraanil</string>
+    <string name="delete_empty_folders">Pärast nende sisu kustutamist kustutage tühjad kaustad</string>
+    <string name="allow_photo_gestures">Lubage foto heleduse reguleerimine vertikaalsete žestidega</string>
+    <string name="allow_video_gestures">Lubage videomahu ja heleduse reguleerimine vertikaalsete žestidega</string>
+    <string name="show_media_count">Kuva kausta meediakanalid põhivaates</string>
+    <string name="show_extended_details">Näita laiendatud üksikasju täisekraanil</string>
+    <string name="manage_extended_details">Halda laiendatud üksikasju</string>
+    <string name="one_finger_zoom">Luba ühe sõrme suum täisekraanil</string>
+    <string name="allow_instant_change">Luba koheselt muuta meediat, klõpsates ekraani külgedel</string>
+    <string name="allow_deep_zooming_images">Luba sügavad suumi pildid</string>
+    <string name="hide_extended_details">Peida laiendatud üksikasjad, kui olekuriba on peidetud</string>
+    <string name="show_at_bottom">Näita mõningaid nuppe ekraani allosas</string>
+    <string name="show_recycle_bin">Näita prügikasti kaustade ekraanil</string>
+    <string name="deep_zoomable_images">Suured suumitavad pildid</string>
+    <string name="show_highest_quality">Näita pilte võimalikult kõrge kvaliteediga</string>
+    <string name="show_recycle_bin_last">Näita prügikasti kui põhiekraani viimast üksust</string>
+    <string name="allow_down_gesture">Luba täisekraanivaade sulgeda allapoole suunatud žestiga</string>
+    <string name="allow_one_to_one_zoom">Luba 1: 1 suumimine kahe topelt toksamisega</string>
+    <string name="open_videos_on_separate_screen">Avage videod alati eraldi ekraanil, millel on uued horisontaalsed žestid</string>
+    <string name="show_notch">Näita taset, kui see on saadaval</string>
+    <string name="allow_rotating_gestures">Luba žestidega pöörlevad pildid</string>
+    <string name="file_loading_priority">Faili laadimise prioriteet</string>
+    <string name="speed">Kiirus</string>
+    <string name="compromise">Kompromiss</string>
+    <string name="avoid_showing_invalid_files">Vältige vigaste failide esitamist</string>
+    <string name="show_image_file_types">Kuva pildifailide tüübid</string>
+    <string name="allow_zooming_videos">Luba videote suumimist neid topeltpuudutades</string>
+    <string name="folder_thumbnail_style">Kausta pisipiltide stiil</string>
+    <string name="show_file_count_line">Kuva failide arv eraldi real</string>
+    <string name="show_file_count_brackets">Kuva sulgudes failide arv</string>
+    <string name="show_file_count_none">Ära näita failide arvu</string>
+    <string name="limit_folder_title">Piira pikkade kaustade pealkirju 1 reale</string>
+    <string name="square">Ruut</string>
+    <string name="rounded_corners">Ümarad nurgad</string>
+    <string name="thumbnails">Pisipildid</string>
+    <string name="fullscreen_media">Täisekraan meedia</string>
+    <string name="extended_details">Laiendatud üksikasjad</string>
+    <string name="bottom_actions">Alumine tegevus</string>
+    <string name="manage_bottom_actions">Hallake nähtavaid põhitoiminguid</string>
+    <string name="toggle_favorite">Lülitage lemmik sisse</string>
+    <string name="toggle_file_visibility">Näita faili sisu</string>
+    <string name="pesdk_transform_button_freeCrop">Kohandatud</string>
+    <string name="pesdk_transform_button_resetCrop">Lähtesta</string>
+    <string name="pesdk_transform_button_squareCrop">Ruut</string>
+    <string name="pesdk_transform_title_name">Teisenda</string>
+    <string name="pesdk_filter_title_name">Filter</string>
+    <string name="pesdk_filter_asset_none">Puudub</string>
+    <string name="pesdk_adjustments_title_name">Rihi</string>
+    <string name="pesdk_adjustments_button_shadowTool">Varjud</string>
+    <string name="pesdk_adjustments_button_exposureTool">Säriaeg</string>
+    <string name="pesdk_adjustments_button_highlightTool">Esiletõstmine</string>
+    <string name="pesdk_adjustments_button_brightnessTool">Heledus</string>
+    <string name="pesdk_adjustments_button_contrastTool">Kontrast</string>
+    <string name="pesdk_adjustments_button_saturationTool">Küllastus</string>
+    <string name="pesdk_adjustments_button_clarityTool">Selgus</string>
+    <string name="pesdk_adjustments_button_gammaTool">Gamma</string>
+    <string name="pesdk_adjustments_button_blacksTool">Mustad</string>
+    <string name="pesdk_adjustments_button_whitesTool">Valged</string>
+    <string name="pesdk_adjustments_button_temperatureTool">Temperatuur</string>
+    <string name="pesdk_adjustments_button_sharpnessTool">Teravus</string>
+    <string name="pesdk_adjustments_button_reset">Lähtesta</string>
+    <string name="pesdk_focus_title_name">Fokusseeri</string>
+    <string name="pesdk_focus_title_disabled">Puudub</string>
+    <string name="pesdk_focus_button_radial">Radiaalne</string>
+    <string name="pesdk_focus_button_linear">Lineaarne</string>
+    <string name="pesdk_focus_button_mirrored">Peegeldatud</string>
+    <string name="pesdk_focus_button_gaussian">Gaussi</string>
+    <string name="pesdk_text_title_name">Tekst</string>
+    <string name="pesdk_text_title_options">Tekstivalikud</string>
+    <string name="pesdk_text_title_textColor">Teksti värv</string>
+    <string name="pesdk_text_title_font">Font</string>
+    <string name="pesdk_text_button_add">Lisa</string>
+    <string name="pesdk_text_button_edit">Muuda</string>
+    <string name="pesdk_text_button_straighten">Rihi otseks</string>
+    <string name="pesdk_text_button_font">Font</string>
+    <string name="pesdk_text_button_color">Värv</string>
+    <string name="pesdk_text_button_backgroundColor">Taustavärv</string>
+    <string name="pesdk_text_button_alignment">Joondus</string>
+    <string name="pesdk_text_button_bringToFront">Selgus</string>
+    <string name="pesdk_text_button_delete">Kustuta</string>
+    <string name="pesdk_text_text_editTextPlaceholder">Teie tekst</string>
+    <string name="pesdk_brush_title_name">Pintsel</string>
+    <string name="pesdk_brush_button_color">Värv</string>
+    <string name="pesdk_brush_button_size">Suurus</string>
+    <string name="pesdk_brush_button_hardness">Kõvadus</string>
+    <string name="pesdk_brush_button_bringToFront">Selgus</string>
+    <string name="pesdk_brush_button_delete">Kustuta</string>
+    <string name="pesdk_brush_title_brushColor">Pintsli värv</string>
+    <string name="pesdk_editor_title_name">Toimetaja</string>
+    <string name="pesdk_editor_title_closeEditorAlert">Redaktor sulgeda?</string>
+    <string name="pesdk_editor_text_closeEditorAlert">Kas soovite pildi tõesti ära visata?</string>
+    <string name="pesdk_editor_button_closeEditorAlertConfirmation">Jah</string>
+    <string name="pesdk_editor_button_closeEditorAlertCancelation">Ei</string>
+    <string name="pesdk_editor_cancel">Tühista</string>
+    <string name="pesdk_editor_accept">Nõustu</string>
+    <string name="pesdk_editor_save">Salvesta</string>
+    <string name="pesdk_editor_text_exportProgressUnknown">Kujutist eksporditakse...</string>
+    <string name="pesdk_editor_text_exportProgress" formatted="false">Kujutist eksporditakse %s.</string>
+    <string name="pesdk_common_button_flipH">Pöörake horisontaalselt</string>
+    <string name="pesdk_common_button_flipV">Pöörake vertikaalselt</string>
+    <string name="pesdk_common_button_undo">Võta tagasi</string>
+    <string name="pesdk_common_button_redo">Tee uuesti</string>
+    <string name="pesdk_common_title_colorPicker">Värvi valik</string>
+    <string name="pesdk_common_title_transparentColor">Läbipaistev</string>
+    <string name="pesdk_common_title_whiteColor">Valge</string>
+    <string name="pesdk_common_title_grayColor">Hall</string>
+    <string name="pesdk_common_title_blackColor">Must</string>
+    <string name="pesdk_common_title_lightBlueColor">Helesinine</string>
+    <string name="pesdk_common_title_blueColor">Sinine</string>
+    <string name="pesdk_common_title_purpleColor">Lilla</string>
+    <string name="pesdk_common_title_orchidColor">Violetne</string>
+    <string name="pesdk_common_title_pinkColor">Roosa</string>
+    <string name="pesdk_common_title_redColor">Punane</string>
+    <string name="pesdk_common_title_orangeColor">Oranž</string>
+    <string name="pesdk_common_title_goldColor">Kuldne</string>
+    <string name="pesdk_common_title_yellowColor">Kollane</string>
+    <string name="pesdk_common_title_oliveColor">Oliiv</string>
+    <string name="pesdk_common_title_greenColor">Roheline</string>
+    <string name="pesdk_common_title_aquamarinColor">Akvamariin</string>
+    <string name="pesdk_common_title_pipettableColor">Pipeteeritav värv</string>
+    <string name="faq_1_title">Kuidas ma saan lihtsa galerii seadistada vaikeseadmete galeriiks?</string>
+    <string name="faq_1_text">Kõigepealt peate oma seadete jaotises Rakendused leidma vaikepildi, otsima nupu, mis ütleb \"Ava vaikimisi\", klõpsake seda ja seejärel valige \"Tühjenda vaikeväärtused\".
+        Järgmise kordi, kui proovite pilti või videot avada, peaksite nägema rakenduse valijat, kus saate valida galerii ja muuta see vaikimisi rakenduseks.</string>
+    <string name="faq_2_title">Lukustasin rakenduse parooliga, kuid unustasin selle. Mida ma teha saan?</string>
+    <string name="faq_2_text">Seda saab lahendada kahel viisil. Saate rakenduse uuesti installida või leida selle seadme seadetes ja valida \"Kustuta andmed\". See taastab kõik teie seaded, see ei eemalda meediumifaile.</string>
+    <string name="faq_3_title">Kuidas saan albumi alati ülaosas kuvada?</string>
+    <string name="faq_3_text">Soovitud albumil saate pikka aega vajutades valida toimingute menüüs Pin-ikooni, mis kinnitaub selle ülemisele küljele. Saate lisada ka mitu kausta, kinnitatud elemendid sorteeritakse vaikimisi sorteerimismeetodi järgi.</string>
+    <string name="faq_4_title">Kuidas videoid edasi saata?</string>
+    <string name="faq_4_text">Saate seda teha, topeltpuudutades ekraani serva või koputades otsinguriba lähedal olevaid praeguseid või maksimaalse kestusega tekste. Kui lubate rakenduse seadetes videote avamise eraldi ekraanil, saate kasutada ka horisontaalseid žeste.</string>
+    <string name="faq_5_title">Mis vahe on kausta peitmise ja välistamise vahel?</string>
+    <string name="faq_5_text">Välista see, et kaust kuvatakse ainult lihtsas galeriis, samas peidab töö süsteemi ja ka teiste galeriide kausta. See toimib, luues tühja kausta \".nomedia\" faili, mille saate seejärel eemaldada ka mis tahes failihalduriga. Pange tähele, et mõned seadmed ei võimalda kaustade, näiteks kaamera, ekraanipiltide ja allalaaditavate failide peitmist.</string>
+    <string name="faq_6_title">Miks ilmuvad muusikakaanega kaustad või kleebised?</string>
+    <string name="faq_6_text">Võib juhtuda, et näete mõnda ebatavalist albumit. Neid saab hõlpsasti välistada, vajutades sellel pikka aega ja valides Välista. Järgmises dialoogis saate seejärel valida vanemkausta, tõenäoliselt see takistab teiste seotud albumite ilmumist.</string>
+    <string name="faq_7_title">Piltidega kaust ei kuvata või see ei näita kõiki üksusi. Mida ma teha saan?</string>
+    <string name="faq_7_text">Sellel võib olla mitu põhjust, kuid selle lahendamine on lihtne. Lihtsalt minge menüüsse Seaded -&gt; Kaasatud kaustade haldamine, valige Lisaks ja navigeerige soovitud kausta.</string>
+    <string name="faq_8_title">Mis siis, kui tahan näha vaid mõningaid konkreetseid kaustu?</string>
+    <string name="faq_8_text">Kausta Lisamine kaustadesse ei välista automaatselt midagi. Mida saate teha, on minna menüüsse Sätted -&gt; Välistatud kaustade haldamine, jätke juurkaust \"/\" välja, seejärel lisage soovitud kaustad menüüs Seaded -&gt; Kaasatud kaustade haldamine.
+        See muudab ainult valitud kaustad nähtavaks, sest nii välistamine kui ka kaasamine on rekursiivsed ja kui kaust on nii välistatud kui ka kaasatud, kuvatakse see.</string>
+    <string name="faq_10_title">Kas ma saan selle rakendusega pilte kärpida?</string>
+    <string name="faq_10_text">Jah, saate redaktoris pilte kärpida lohistades. Redaktorisse pääsete kas pisipildi vajutamisega ja valides Redigeeri või valides täisekraani vaates Muuda.</string>
+    <string name="faq_11_title">Kas ma saan kuidagi pisipilte grupeerida?</string>
+    <string name="faq_11_text">Muidugi, kasutage pisipiltide vaaamisel lihtsalt menüükäsku „Rühmapõhine”. Faile saab rühmitada mitme kriteeriumi alusel, kaasa arvatud kuupäev. Kui kasutate funktsiooni \"Näita kõikide kaustade sisu\", saate neid ka kaustadesse rühmitada.</string>
+    <string name="faq_12_title">Sorteerimine kuupäeva järgi ei tundu korralikult töötavat, kuidas seda parandada?</string>
+    <string name="faq_12_text">See on tõenäoliselt põhjustatud sellest, et failid on kuskilt kopeeritud. Võite selle parandada, valides faili pisipildid ja \"Fikseeri jäädvustus kuup. väärtus\".</string>
+    <string name="faq_13_title">Ma näen piltidel värvilahendust. Kuidas parandada kvaliteeti?</string>
+    <string name="faq_13_text">Piltide kuvamise praegune lahendus toimib hästi enamikul juhtudel, kuid kui soovite veelgi paremat pildikvaliteeti, saate rakenduse seadetes lubada \"Näita pilte võimalikult kõrgekvaliteediliselt\" jaotises \"Suured suumitavad pildid\".</string>
+    <string name="faq_14_title">Olen peitnud faili / kausta. Kuidas ma saan seda näidata?</string>
+    <string name="faq_14_text">Saate vajutada põhikuval menüüelementi \"Näita peidetud objekte ajutiselt\" või lülitada peidetud üksuse nägemiseks rakenduse seadetes \"Näita peidetud objekte\". Kui soovite seda näidata, vajuta lihtsalt pikka aega ja vali \"Peida\". Kaustad on peidetud, lisades neile peidetud \".nomedia\" faili, kustutades faili ka mõne failihalduriga.</string>
+    <string name="faq_15_title">Miks rakendus võtab nii palju ruumi?</string>
+    <string name="faq_15_text">Rakenduse vahemälu võib võtta kuni 250 MB, see tagab kiirema pildi laadimise. Kui rakendus võtab rohkem ruumi, on see tõenäoliselt tingitud sellest, et teil on prügikastis üksusi. Need failid lisatakse rakenduse suurusele. Saate tühjendada prügikasti, avades selle ja kustutades kõik failid või rakenduse seadetest. Iga prügikasti fail kustutatakse 30 päeva pärast automaatselt.</string>
+    <string name="app_title">Simple Gallery Pro - fotohaldur &amp; toimrtaja</string>
+    <string name="app_short_description">Tasuline rakendus fotode, videote ja GIF-failide haldamiseks ja redigeerimiseks ilma reklaamideta</string>
+    <string name="app_long_description">       Simple Gallery Pro on hõlpsasti kohandatav võrguühenduseta galerii. Korrastage &amp; redigeerige oma fotosid, taastage prügikasti abil kustutatud faqile, kaitske &amp; peitke faile ja vaadake tohutul hulgal erinevaid fotosid &amp; videoformaate (sealhulgas RAW, SVG) ja palju muud.
+
+        Rakendus ei sisalda reklaame ega tarbetuid lubasid. Kuna rakendus ei vaja ka Interneti-ühendust, on teie privaatsus kaitstud.
+        -------------------------------------------------
+        <b>SIMPLE GALLERY PRO – OMADUSED</b>
+        -------------------------------------------------
+
+        • Võrguühenduseta galerii ilma reklaamide ja hüpikuteta
+        • Lihtne galerii fotoredaktor - kärpida, pöörata, muuta suurust, joonistada, filtreerida &amp; palju muud
+        • Interneti-ühendust pole vaja, mis annab teile rohkem privaatsust ja turvalisust
+        • Tarbetuid lubasid pole vaja
+        • Otsige kiiresti pilte, videoid &amp; faile
+        • Avada &amp; vaadata palju erinevaid foto- ja videotüüpe (RAW, SVG, panoraam jne)
+        • Mitmesuguseid intuitiivseid žeste hõlpsaks redigeerimiseks &amp; failide korraldamiseks
+        • Paljud võimalused filtreerimiseks, rühmitamiseks &amp; failide sorteerimiseks
+        • Kohandage Simple Gallery Pro välimust
+        • Saadaval 32 keeles
+        • Märkige failid kiireks juurdepääsuks lemmikute hulka
+        • Kaitske oma pilte &amp; videosid mustri, pin koodi või sõrmejäljega
+        • Rakenduse käivitamiseks või konkreetsete funktsioonide kaitsmiseks kasutage pin koodi, mustrit &amp; sõrmejälge
+        • Kustutatud fotode &amp; videode taastamine prügikastist
+        • Lülitab välja failide nähtavuse fotode &amp; videode peitmiseks
+        • Looge oma failidest kohandatav slaidiseanss
+        • Vaadake oma failide üksikasjalikku teavet (eraldusvõime, EXIF-väärtused jne)
+        • Simple Gallery Pro on avatud lähtekoodiga
+        … ja palju muud!
+
+        <b>PILDIGALERII TOIMETAJA</b>
+        Simple Gallery Pro abil on piltide redigeerimine hõlpsalt teostatav. Kärpige, pöörake, pöörake ja muutke oma pilte. Kui tunnete end pisut loovamana, saate lisada filtreid ja oma pilte joonistada!
+
+        <b>TUGI MITMETELE FAILITÜÜPIDELE</b>
+        Erinevalt teistest galeriivaatajatest &amp; fotokorraldajatest toetab Simple Gallery Pro tohutut valikut erinevaid failitüüpe, sealhulgas JPEG, PNG, MP4, MKV, RAW, SVG, panoraamfotod, panoraamvideod ja palju muud.
+
+        <b>IGATI KOHANDATAV GALERII HALDAJA</b>
+        Liidesest kuni alumise tööriistariba funktsiooninuppiteni on Simple Gallery Pro väga kohandatav ja töötab nii, nagu soovite. Ühelgi teisel galeriijuhil pole sellist paindlikkust! Tänu avatud lähtekoodiga olemisele oleme saadaval ka 32 keeles!
+
+        <b>FOTODE &amp; VIDEODE TAASTAMINE </b>
+        Kustutasite juhuslikult väärtusliku foto või video? Ärge muretsege! Simple Gallery Pro-l on mugav prügikast, kust saate kustutatud fotosid &amp; videoid hõlpsalt taastada.
+
+        <b>KAITSKE &amp; PEITKE, VIDEOID &amp; FAILE</b>
+        Pin koodi, mustri või seadme sõrmejäljeskanneri abil saate fotosid, videoid &amp; terveid albumeid kaitsta ja peita. Saate kaitsta rakendust ennast või panna lukud rakenduse konkreetsetele funktsioonidele. Näiteks ei saa faili ilma sõrmejälgede skannimiseta kustutada, see aitab kaitsta faile juhusliku kustutamise eest.
+        <b>Vaadake täieliku Simple Tools komplekti siit:</b>
+        https://www.simplemobiletools.com
+
+        <b>Simple Gallery Pro veebisait:</b>
+        https://www.simplemobiletools.com/gallery
+
+        <b>Facebook:</b>
+        https://www.facebook.com/simplemobiletools
+
+        <b>Reddit:</b>
+        https://www.reddit.com/r/SimpleMobileTools
+    </string>
+</resources>

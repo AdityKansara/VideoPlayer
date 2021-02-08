@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="edit">Redakti</string>
+    <string name="pesdk_transform_button_freeCrop">Propra</string>
+    <string name="pesdk_text_button_edit">Redakti</string>
+    <string name="pesdk_text_button_delete">Forigi</string>
+    <string name="pesdk_brush_button_delete">Forigi</string>
+    <string name="pesdk_editor_button_closeEditorAlertConfirmation">Jes</string>
+    <string name="pesdk_editor_save">Konservi</string>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Video Player</string>
+    <string name="tab_text_1">VIDEO</string>
+    <string name="tab_text_2">FOLDER</string>
+    <string name="tab_text_3">RECENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+
+    <string name="lockScreenOrientation">Lock screen orientation</string>
+    <string name="unlockScreenOrientation">Unlock screen orientation</string>
+    <string name="watching">Watching…</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="fastForward">Fast Forward</string>
+    <string name="fastRewind">Fast Rewind</string>
+    <string name="skipNext">Skip to Next</string>
+    <string name="minimize">Minimize</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="playlist">Playlist</string>
+    <string name="theVideoIsPlaying">The video is playing</string>
+    <string name="privacy_policy">http://skylineinfosys.com/privacy_policy</string>
+    <string name="feedback">feedback</string>
+    <string name="send_bug_report_via">Send Bug_Report Via</string>
+
+
+    <string name="app_id">ca-app-pub-7274408853434095~1926074936</string>
+    <string name="b">/419163168/com.mxplayer.hdvideo.videoplayer.saxvideos.banner</string>
+    <string name="i">/419163168/com.mxplayer.hdvideo.videoplayer.saxvideos.interstitial</string>
+    <string name="nativead">/419163168/com.mxplayer.hdvideo.videoplayer.saxvideos.native</string>
+    <string name="nativeadmainscreen">/419163168/com.mxplayer.hdvideo.videoplayer.saxvideos.native</string>
+    <string name="nativead2">/419163168/com.mxplayer.hdvideo.videoplayer.saxvideos.native</string>
+    <string name="action_close">Close</string>
+
+    <!--    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--    <string name="i">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--    <string name="b">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    <string name="nativead">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--    <string name="nativeadmainscreen">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--    <string name="nativead2">ca-app-pub-3940256099942544/2247696110</string>-->
+
+</resources>

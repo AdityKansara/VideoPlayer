@@ -1,0 +1,13 @@
+<!--
+  ~ Created on 18-9-16 下午4:04.
+  ~ Copyright © 2018 刘振林. All rights reserved.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.liuzhenlin.texturevideoview">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-sdk tools:overrideLibrary="com.google.android.exoplayer2.core" />
+</manifest>

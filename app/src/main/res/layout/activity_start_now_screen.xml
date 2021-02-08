@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/link"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btmmm">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/btmmm"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentBottom="true">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/topp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/homee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/nointernet"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/ic_launcher"
+                android:visibility="gone" />
+
+            <com.google.android.ads.nativetemplates.TemplateView
+                android:id="@+id/my_template"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:gnt_template_type="@layout/gnt_medium_template_view" />
+
+        </RelativeLayout>
+        <!-- <RelativeLayout
+           android:layout_width="match_parent"
+            android:layout_below="@+id/homee"
+            android:background="@drawable/adbackgrnd"
+            android:layout_height="wrap_content">-->
+
+
+        <!--  </RelativeLayout> -->
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/futureads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btm">
+
+        <!-- <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="Swipe and Get New Feature in This App"
+             android:textColor="#FF0000"
+             android:textSize="20dp"
+             android:textStyle="bold" />-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topp"
+        android:background="@color/cream_dark"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/futureads1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btm"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Swipe and Get New Feature in This App"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ad1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btnStarts"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:background="@color/brown_grey"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:text="Start now"
+                        android:textColor="@color/white" />
+                    <!--<com.ncorti.slidetoact.SlideToActView
+                        android:id="@+id/example"
+                        android:layout_width="260dp"
+                        android:layout_height="40dp"
+                        android:visibility="visible"
+                        app:inner_color="@color/white"
+                        app:outer_color="@color/colorPrimary"
+                        app:slider_height="45dp"
+                        app:text="Swipe To Start"
+                        app:text_size="20dp" />-->
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_135sdp"
+            android:visibility="gone">
+
+
+            <ImageView
+                android:id="@+id/gallery"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_95sdp"
+                android:background="@drawable/gallery"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/cal"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/gtxt"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/librefranklin_regular"
+                android:freezesText="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:shadowColor="#b3acac"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:singleLine="true"
+                android:text="
+Sax Photo Gallery - Photo Album &amp; Photo Editor"
+                android:textColor="#FFF"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/gallery"
+                app:layout_constraintRight_toRightOf="@id/gallery"
+                app:layout_constraintTop_toBottomOf="@id/gallery" />
+
+
+            <ImageView
+                android:id="@+id/cal"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_95sdp"
+                android:background="@drawable/calculator"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toRightOf="@id/gallery"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/ctxt"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="@font/librefranklin_regular"
+                android:freezesText="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:shadowColor="#b3acac"
+                android:shadowDx="1.5"
+                android:shadowDy="1.3"
+                android:shadowRadius="1.6"
+                android:singleLine="true"
+                android:text="Calculator - Photo Vault &amp; Video Vault Hide Photos"
+                android:textColor="#FFF"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/cal"
+                app:layout_constraintRight_toRightOf="@id/cal"
+                app:layout_constraintTop_toBottomOf="@id/cal" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--       <ImageView
+                   android:id="@+id/loanads"
+                   android:layout_width="@dimen/_115sdp"
+                   android:layout_height="@dimen/_125sdp"
+                   android:layout_centerInParent="true"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/finaladlogo"
+                   android:visibility="visible" />-->
+
+
+    </LinearLayout>
+
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/my_template2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ad_background"
+        android:layout_alignParentBottom="true"
+        app:gnt_template_type="@layout/gnt_medium_template_view2" />
+
+</RelativeLayout>

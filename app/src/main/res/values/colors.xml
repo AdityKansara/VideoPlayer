@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabbackcolor">#494949</color>
+    <color name="backgroundcolor">#494949</color>
+
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="lightGray">#AAAAAA</color>
+
+    <color name="highlighted">#ff80cbc4</color>
+    <color name="gray">#dddddd</color>
+    <color name="very_dark_gray">#222222</color>
+    <color name="very_light_gray">#dddddd</color>
+    <color name="website">#36F4EB</color>
+
+    <color name="cream">#FAF6E9</color>
+    <color name="cream_dark">#ece8d9</color>
+    <color name="cream_white">#fffdf6</color>
+    <color name="brown_grey">#494949</color>
+</resources>
